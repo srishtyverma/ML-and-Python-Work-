@@ -1,49 +1,71 @@
 # ML and Python Work
 
-A collection of Python, Machine Learning, and Exploratory Data Analysis (EDA) projects completed during my internship at **Anweshan Foundation**.
+A collection of Machine Learning and Data Analysis work completed during my internship at **Anweshan Foundation**.
 
-This repository contains hands-on work with different datasets, focusing on data exploration, preprocessing, visualization, statistical analysis, and machine learning concepts.
+This repository contains one Machine Learning project focused on phishing detection, along with multiple data analysis notebooks exploring different datasets using Python.
 
-## 📂 Projects Included
+##  Machine Learning Project
 
-| Notebook | Description |
+### Phishing Detection using Machine Learning
+An ML-based system developed to identify potentially phishing URLs.
+
+- Performed URL feature extraction and feature engineering.
+- Applied ensemble classification algorithms.
+- Evaluated model performance using appropriate evaluation techniques.
+
+**Notebook:** `Phishing Detection Project ML.ipynb`
+
+## Data Analysis & EDA
+
+A collection of exploratory data analysis notebooks based on different datasets.
+
+| Notebook | Focus |
 |---|---|
-| [ShopSmart ML](ShopSmart_ML.ipynb) | Machine learning-based analysis using the ShopSmart dataset. |
-| [Agriculture Dataset Analysis](agriculture_dataset_analysis.ipynb) | Exploring agricultural data to identify patterns and insights. |
-| [Hospital Dataset Analysis](hospital_dataset_analysis.ipynb) | Data analysis and exploration of hospital-related datasets. |
-| [Loan Data Analysis](loan_data_analysis.ipynb) | Exploring loan-related data and identifying relevant trends and patterns. |
-| [Movie and Viewers Analysis](movie_and_viewers_analysis.ipynb) | Analyzing movie and audience-related data. |
-| [Student Performance Analysis](student_performance_analysis.ipynb) | Exploring factors and patterns related to student performance. |
+| ShopSmart ML | ShopSmart dataset exploration and analysis |
+| Agriculture Dataset Analysis | Agricultural data exploration |
+| Hospital Dataset Analysis | Healthcare data exploration |
+| Loan Data Analysis | Financial and loan-related data exploration |
+| Movie and Viewers Analysis | Movie and audience data exploration |
+| Student Performance Analysis | Student data and academic performance exploration |
 
-## 🛠️ Technologies & Tools
+## Tools & Technologies
 
-- **Programming Language:** Python
+- **Language:** Python
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 - **Environment:** Google Colab, Jupyter Notebook
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn (where applicable)
+- **Concepts:** Exploratory Data Analysis, Data Cleaning, Data Preprocessing, Data Visualization, Feature Engineering, Machine Learning
 
-## 🚀 Getting Started
+## Getting Started
 
-You can explore the notebooks directly on GitHub or run them using Google Colab.
+Clone the repository:
 
-1. Clone this repository:
-   ```bash
-   git clone <your-repository-url>
-   ```
-2. Open the desired `.ipynb` notebook.
-3. Run the notebook in Google Colab or Jupyter Notebook.
-4. Install the required Python libraries if prompted.
+```bash
+git clone <your-repository-url>
+```
 
-## 🎯 Learning Objectives
+Open the notebooks using Google Colab or Jupyter Notebook to explore the code, analysis, and outputs.
 
-- Gain practical experience with Python programming.
-- Understand data cleaning and preprocessing.
-- Perform Exploratory Data Analysis (EDA).
-- Develop familiarity with data visualization.
-- Apply machine learning concepts to real-world datasets.
-- Interpret data and communicate meaningful insights.
+Install the required libraries:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+## 🎯 Learning Outcomes
+
+- Practical experience with Python for data analysis.
+- Understanding data cleaning and preprocessing.
+- Performing Exploratory Data Analysis.
+- Creating visualizations to identify patterns and trends.
+- Applying machine learning algorithms.
+- Understanding model evaluation techniques.
+
+## 📚 Internship Details
+
+- **Role:** ML and Python Intern
+- **Organization:** Anweshan Foundation
+- **Duration:** June 2026 – August 2026
 
 ---
 
-**Internship:** ML and Python Internship  
-**Organization:** Anweshan Foundation  
-**Duration:** June 2026 – August 2026
+*This repository represents my hands-on learning and practical work in Python, Data Analysis, and Machine Learning.*
